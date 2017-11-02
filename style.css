@@ -5,8 +5,10 @@
 html, body {
     margin: 0;
     padding: 0;
+
     font-family: 'Catamaran', sans-serif;
-    font-size: 22px;
+    font-size: 2vw;
+
     /* background-image: url(sabri-tuzcu-331970.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -19,47 +21,65 @@ html, body {
 /*------------------------------------------------*/
 
 nav {
-
     position: fixed;
+    
 }
 
 nav ul {
     list-style: none;
+    margin-top: 15px;
+    
     /* text-align: right; */
 }
 
 nav li {
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 15px;
+
 }
 
 nav a {
-    color: black;
+    color: rgb(114, 114, 114);
     text-decoration: none;
+}
+
+#mobile-nav {
+    display: none;
 }
 
 /*------------------------------------------------*/
 /*HOME*/
 /*------------------------------------------------*/
 
-#welcome {
-    padding-top: 375px;
-    padding-right: 480px;
-    color: white;
-    float: right;
-    font-weight: 300;
-    line-height: 10px;
-    text-align: right;
-}
-
 #home {
     background-image: url(sabri-tuzcu-331970.jpg);
     background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
+.photo-credit {
+    float: right;
+}
+
+#welcome {
+    color: white;
+    font-size: 80%;
+    font-weight: 300;
+    line-height: 10px;
+    text-align: center;
+}
+
+#welcome h1 {
+    margin:0;
+}
+
+
+
 .down-arrow1, .down-arrow2, .down-arrow3, .down-arrow4 {
-    height: 50px;
-    margin-left: 935px;
+    height: 5%;
     position: absolute;
 }
 
@@ -68,28 +88,45 @@ nav a {
 /*------------------------------------------------*/
 
 #about {
-    background-color: rgb(243, 232, 199); 
+    background-color: #F9F3E6; 
+    color: rgb(114, 114, 114);
 }
 
 #about-box {
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 #skills {
-    padding-right: 40px;
+    font-size: 60%;
+}
+
+#skills h3 {
+    /* padding-left: 20%; */
 }
 
 #skills ul {
     list-style: none;
+    font-size: 80%;
+    padding-left: 0;
 }
 
 #bio {
+    font-size: 60%;
     padding-right: 40px;
     padding-left:40px;
 }
 
 #goals {
+    font-size: 60%;
     padding-left: 40px;
+}
+
+#social-media {
+    font-size: 60%;
+}
+
+#social-media a {
+    text-decoration: none;
 }
 
 #photo {
@@ -101,7 +138,12 @@ nav a {
 }
 
 .down-arrow2 {
-    margin-top: 80px;
+    margin-top: 170px;
+}
+
+.icon {
+    height: 40px;
+    margin-right: 20px;
 }
 
 /*------------------------------------------------*/
@@ -109,11 +151,13 @@ nav a {
 /*------------------------------------------------*/
 
 #projects1 {
-    background-color: rgb(243, 228, 188)
+    background-color: #E2DCD5;
+    color: rgb(114, 114, 114);
+    font-size: 60%;
 }
 
 #projects-box {
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 .headline {
@@ -127,14 +171,20 @@ iframe {
 
 #pusheen-travel{
     padding-left: 40px;
+    padding-right: 20px;
 }
 
 #bfyhii {
     padding-right: 40px;
+    padding-left: 20px;
 }
 
 .down-arrow3 {
-    /* margin-top: px; */
+    margin-top: 235px;
+}
+
+.code2 {
+    visibility: hidden;
 }
 
 /*------------------------------------------------*/
@@ -142,7 +192,13 @@ iframe {
 /*------------------------------------------------*/
 
 #projects2 {
-    background-color: rgb(243, 223, 172);
+    background-color: #E8AA8C;
+    color: rgb(114, 114, 114);
+    font-size: 60%
+}
+
+#projects-box2 {
+    padding-top: 100px;
 }
 
 #portfolio {
@@ -169,11 +225,13 @@ iframe {
 #contact {
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(mathyas-kurmann-102977.jpg);
     background-size: cover; 
+    font-size: 60%
 
 }
 
-.photo-credit {
+.photo-credit2 {
     float: right;
+    
 }
 
 #contact h1 {
@@ -181,8 +239,8 @@ iframe {
 }
 
 #pitch {
-    padding-top: 300px;
-    padding-left: 550px;
+    padding-top: 25%;
+    padding-left: 25%;
     display: flex;
 }
 
@@ -193,7 +251,7 @@ iframe {
 
 
 #letter {
-    height: 40px;
+    height: 85%;
 }
 
 /*------------------------------------------------*/
@@ -206,3 +264,4 @@ iframe {
     display: flex;
     justify-content: space-around
 }
+

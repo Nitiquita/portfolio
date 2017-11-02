@@ -1,0 +1,150 @@
+/* Big tablet to 1200px */
+@media only screen and (max-width: 1200px) {    
+    #about {
+        font-size: 130%
+    }
+    #photo{
+        height: 150px
+    }
+
+    .icon {
+        height: 30px;
+        margin-right: 15px;
+    }
+
+    #projects1 {
+        font-size: 80%;
+    }
+
+    .code {
+        visibility: hidden;
+    }
+
+    .code2 {
+        visibility: visible
+    }
+
+    .code2 img {
+        height: 40px;
+    }
+
+    #projects2 {
+        font-size: 80%;
+    }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */ 
+@media only screen and (max-width: 1023px) {
+    #photo {
+        float: none;
+    }
+
+    .icon {
+        height: 20px;
+        margin-right: 10px;
+    }
+
+}
+
+/* Small phones to small tablets: from 481px to 767px */ 
+@media only screen and (max-width: 767px) {
+    nav li {
+        font-size: 150%;
+    }
+
+    #welcome {
+        font-size: 110%
+    }
+
+    #welcome h3 {
+        font-size: 160%
+    }
+
+    #about-box {
+        padding-top: 100px;
+        font-size: 200%;
+        padding-bottom: 50px;
+    }
+
+    #photo {
+        margin-left: 40px;
+        height: 300px;
+        float: right;
+    }
+
+    #social-media {
+        padding-left: 40px;
+    }
+
+    #skills {
+        padding-left: 40px;
+    }
+
+    .icon {
+        height: 40px;
+    }
+
+    #projects1 {
+        font-size: 200%
+    }
+
+    .code {
+        visibility: visible;
+    }
+
+    .code2 {
+        visibility: hidden;
+    }
+
+    .code img {
+        height: 40px;
+    }
+
+    #projects2 {
+        padding-top: 0;
+        font-size: 200%;
+        padding-bottom: 150px;
+    }
+
+    #projects-box2 {
+        padding-top: 20px;
+    }
+
+    #pitch {
+        display: block;
+        margin: 0;
+        padding-left: 0;
+        padding-top: 50%;
+        text-align: center;
+    }
+
+    #pitch h1 {
+        font-size: 600%
+    }
+
+    #pitch img {
+        height: 40px;
+    }
+}
+
+/* Small phones: from 0 to 480px */ 
+@media only screen and (max-width: 480px) {
+    
+    nav ul {
+        padding-left: 20px;
+    }
+    
+    nav ul li {
+        display: none;
+    }
+
+    #mobile-nav, #mobile-nav-close {
+        display: block;
+        height: 40px;
+    }
+
+    #mobile-nav-close {
+        display: none;
+    }
+
+}

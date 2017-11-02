@@ -2,23 +2,33 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <!-- initial scale sets mobile to right prespective  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- description for SEO -->
+    <meta name="description" content="Nitika Nadgar fullstack javascript web developer portfolio">
+    <meta charset="utf-8">
+    <!-- initial scale sets mobile to right prespective  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- description for SEO -->
+    <meta name="description" content="Nitika Nadgar fullstack javascript web developer portfolio">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
         crossorigin="anonymous"> -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran:300,400" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="grid.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8">
-    <!-- initial scale sets mobile to right prespective  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- description for SEO -->
-    <meta name="description" content="Nitika Nadgar fullstack javascript web developer portfolio">
+    <link rel="stylesheet" type="text/css" href="queries.css">
+
 </head>
 
 <body>
 
     <nav>
         <ul>
+            <img id="mobile-nav" src="iconmonstr-menu-6.svg">
+            <img id="mobile-nav-close" src="iconmonstr-x-mark-7.svg">
+
             <li>
                 <a href="#home">home</a>
             </li>
@@ -26,15 +36,33 @@
                 <a href="#about">about</a>
             </li>
             <li>
-                <a href="#projects1">projects</a>
+                <a href="#projects1">apps</a>
+            </li>
+            <li>
+                <a href="#projects2">websites</a>
             </li>
             <li>
                 <a href="#contact">contact</a>
             </li>
-
         </ul>
     </nav>
     <section id="home">
+
+        <div>
+            <div id="welcome">
+                <h1>Hello! My name is Nitika and I am a web developer.</h1>
+                <h3>Welcome to my portfolio!</h3>
+            </div>
+
+        </div>
+
+        <!-- <div>
+            <a href="#about">
+                <img class="down-arrow1" src="down-arrow.svg">
+            </a>
+        </div> -->
+    </section>
+    <section id="about">
         <a class="photo-credit" style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;"
             href="https://unsplash.com/@sabrituzcu?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
             target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Sabri Tuzcu">
@@ -47,21 +75,8 @@
             </span>
             <span style="display:inline-block;padding:2px 3px;">Sabri Tuzcu</span>
         </a>
-        <div id="welcome">
-            <h1>Hello!</h1>
-            <h3>My name is Nitika</h3>
-            <h3>and I am a web developer.</h3>
-            <h3>Welcome to my portfolio!</h3>
-        </div>
-        <div>
-            <a href="#about">
-                <img class="down-arrow1" src="down-arrow.svg">
-            </a>
-        </div>
-    </section>
-    <section id="about">
         <div class="row" id="about-box">
-            <div class="col span-1-of-3">
+            <div class="col span-1-of-4">
                 <div id="goals">
                     <h1>goals</h1>
                     <p>It is my hope to join a team where I can keep learning and grow as a developer, and for a company that
@@ -69,9 +84,10 @@
                     <p>As a developer, I would like to continue to develop my skill set and stay current with my tech stack.</p>
                     <p>I have a couple of personal projects in the ideation stage that I am working on, and some friends whose
                         artist sites I am in the process of creating.</p>
+                    <p>I would love to make beautiful websites.</p>
                 </div>
             </div>
-            <div class="col span-1-of-3">
+            <div class="col span-1-of-4">
                 <div id="bio">
                     <div>
                         <img id="photo" src="img_4474.jpg">
@@ -84,7 +100,27 @@
                 </div>
             </div>
 
-            <div class="col span-1-of-3">
+
+            <div id="social-media" class="col span-1-of-4">
+                <h1>social media</h1>
+                <a href="https://www.linkedin.com/in/nitika-nadgar/">
+                    <img class="icon" src="if_linkedin_2062080.svg">
+                </a>
+                <a href="https://medium.com/@nitikanadgar">
+                    <img class="icon" src="if_Medium_206208.svg">
+                </a>
+                <a href="https://github.com/Nitiquita">
+                    <img class="icon" src="if_github_287583.svg">
+                </a>
+                <a href="https://codepen.io/nitiquita/">
+                    <img class="icon" src="if_codepen_1542794.svg">
+                </a>
+                <a href="https://www.instagram.com/nitiquita/?hl=en">
+                    <img class="icon" src="if_Instagram_2062078.svg">
+                </a>
+
+            </div>
+            <div class="col span-1-of-4">
                 <div id="skills">
                     <h1>skills</h1>
                     <h3>proficient</h3>
@@ -117,11 +153,11 @@
             </div>
 
         </div>
-        <div>
+        <!-- <div>
             <a href="#projects1">
                 <img class="down-arrow2" src="down-arrow.svg">
             </a>
-        </div>
+        </div> -->
     </section>
     <section id="projects1">
         <div id="projects-box">
@@ -148,6 +184,12 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="code2">
+                            <h3>Look at the code!</h3>
+                            <a href="https://github.com/Nitiquita/scavengerHunt">
+                                <img src="if_github_287583.svg">
+                            </a>
+                        </div>
                     </div>
 
                 </div>
@@ -161,17 +203,6 @@
                         <p>With a tool like Before You Hand It In! a student can check and track their grammar errors before
                             they submit their essay to their instructor which will give an instructor more time to focus
                             on big ideas to help a student improve their writing.</p>
-
-                        <p>The user flow for a student would be that they would navigate to the grammar check page and paste
-                            their essay in the box paragraph by paragraph. Once the language tool identifies an error they
-                            can track that specific error by clicking on the Log button next that particular error. They
-                            would use the language tool to correct all the paragraphs in their essay and once they hand in
-                            their essay there would be close to no errors in their essay.</p>
-
-                        <p>If a student wanted to track the types of errors s/he makes s/he would navigate to the My Stats page
-                            to see a graphical representation of the errors. S/he can also click on the links on that page
-                            to find exercises to work on those specific types of errors.
-                        </p>
                         <div class="row">
                             <div class="col span-1-of-2">
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/32Hmju3nUCU?ecver=1" frameborder="0" gesture="media"
@@ -186,6 +217,12 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="code2">
+                            <h3>Look at the code!</h3>
+                            <a href="https://github.com/Nitiquita/before_you_hand_it_in">
+                                <img src="if_github_287583.svg">
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -193,40 +230,37 @@
         </div>
 
         </div>
-        <div>
+        <!-- <div>
             <a href="#projects2">
                 <img class="down-arrow3" src="down-arrow.svg">
             </a>
-        </div>
+        </div> -->
     </section>
     <section id="projects2">
-        <div class="row" id="websites">
-            <div id="website-box">
-                <h1 class="headline">websites</h1>
-                <div class="col span-1-of-2">
-                    <div class="website-boxes">
-                        <h2>Previous Portfolio</h2>
-                        <p>My first portfolio. I was inspired by the pictures that I had taken of New York City.</p>
-                        <a href="https://nitika-nadgar-web-portfolio.herokuapp.com/">
-                            <img id="portfolio" src="portfolio.png">
-                        </a>
+        <div id="projects-box2">
+            <div class="row" id="websites">
+                <div id="website-box">
+                    <h1 class="headline">websites</h1>
+                    <div class="col span-1-of-2">
+                        <div class="website-boxes">
+                            <h2>Previous Portfolio</h2>
+                            <p>My first portfolio. I was inspired by the pictures that I had taken of New York City.</p>
+                            <a href="https://nitika-nadgar-web-portfolio.herokuapp.com/">
+                                <img id="portfolio" src="portfolio.png">
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col span-1-of-2">
-                    <div class="website-boxes">
-                        <h3>More to come!</h3>
+                    <div class="col span-1-of-2">
+                        <div class="website-boxes">
+                            <h3>More to come!</h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div>
-            <a href="#contact">
-                <img class="down-arrow4" src="down-arrow.svg">
-            </a>
-        </div>
     </section>
     <section id="contact">
-        <a class="photo-credit" style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;"
+        <a class="photo-credit2" style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;"
             href="https://unsplash.com/@mathyaskurmann?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
             target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Mathyas Kurmann">
             <span style="display:inline-block;padding:2px 3px;">
