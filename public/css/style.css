@@ -91,6 +91,7 @@ nav a {
 
 #skills {
     font-size: 60%;
+    text-align: right;
 }
 
 #skills h3 {
@@ -100,22 +101,25 @@ nav a {
 #skills ul {
     list-style: none;
     font-size: 80%;
-    padding-left: 0;
+    padding-left: opx;
 }
 
 #bio {
     font-size: 60%;
     padding-right: 40px;
     padding-left:40px;
+    line-height: 150%;
 }
 
 #goals {
     font-size: 60%;
     padding-left: 40px;
+    line-height: 150%;
 }
 
 #social-media {
     font-size: 60%;
+    text-align: right;
 }
 
 #social-media a {
@@ -136,7 +140,7 @@ nav a {
 
 .icon {
     height: 40px;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 /*------------------------------------------------*/
@@ -150,7 +154,7 @@ nav a {
 }
 
 #projects-box {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .headline {
@@ -165,19 +169,25 @@ iframe {
 #pusheen-travel{
     padding-left: 40px;
     padding-right: 20px;
+    line-height: 150%;
 }
 
 #bfyhii {
     padding-right: 40px;
     padding-left: 20px;
+    line-height: 150%;
 }
 
 .down-arrow3 {
     margin-top: 235px;
 }
 
+.code {
+    margin-right: 40px;
+}
+
 .code2 {
-    visibility: hidden;
+    display: block;
 }
 
 /*------------------------------------------------*/

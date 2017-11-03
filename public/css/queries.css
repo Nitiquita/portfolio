@@ -1,3 +1,10 @@
+
+@media only screen and (max-width: 1320px) {   
+    .icon {
+        height: 30px;
+    }
+}
+
 /* Big tablet to 1200px */
 @media only screen and (max-width: 1200px) {    
 
@@ -9,13 +16,28 @@
     #about {
         font-size: 130%
     }
+
+    #about-box {
+        padding-top: 100px;
+        padding-bottom: 75px;
+    }
+
+    #projects-box {
+        padding-bottom: 100px;
+    }
+
+    #projects-box2 {
+        padding-top: 75px;
+        padding-bottom: 150px;
+    }
+
     #photo{
         height: 150px
     }
 
     .icon {
         height: 30px;
-        margin-right: 15px;
+        margin-left: 15px;
     }
 
     #projects1 {
@@ -23,11 +45,11 @@
     }
 
     .code {
-        visibility: hidden;
+        display: none;
     }
 
     .code2 {
-        visibility: visible
+        display: block;
     }
 
     .code2 img {
@@ -51,14 +73,38 @@
 
     #about { font-size: 175%; }
 
-    #about-box { padding-top: 100px; }
+    #about-box { 
+        padding-top: 100px;
+        padding-bottom: 100px;
+     }
 
     #bio {
         padding-right: 20px;
         padding-left: 20px;
     }
 
-    #projects1, #projects2 { font-size: 90%; }
+    #social-media { text-align: left; }
+
+    #skills { text-align: left; }
+
+    #projects1, #projects2 { 
+        padding-bottom: 100px;
+        font-size: 100%; 
+
+    }
+
+    #projects-box2 {
+        padding-top: 0;
+    }
+
+    .code2 {
+        padding-bottom: 50px;
+    }
+
+    #bfyhii {
+        padding-left: 40px;
+    }
+
 
 
     #photo {
@@ -69,6 +115,22 @@
     .icon {
         height: 20px;
         margin-right: 10px;
+    }
+
+    #pitch {
+        display: block;
+        margin: 0;
+        padding-left: 0;
+        padding-top: 50%;
+        text-align: center;
+    }
+
+    #pitch h1 {
+        font-size: 300%
+    }
+
+    #pitch img {
+        height: 40px;
     }
 
 }
@@ -126,11 +188,11 @@
     }
 
     .code {
-        visibility: visible;
+        display: block;
     }
 
     .code2 {
-        visibility: hidden;
+        display: none;;
     }
 
     .code img {

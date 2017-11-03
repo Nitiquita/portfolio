@@ -1,7 +1,7 @@
 $(document).ready(function () {
     let height = $(window).outerHeight();
     let width = $(window).outerWidth();
-    if ($(window).outerWidth() >= 768) {
+    if ($(window).outerWidth() >= 1200) {
         $('#home').outerHeight(height);
         $('#home').outerWidth(width);
         $('#about').outerHeight(height);
@@ -57,6 +57,23 @@ $(document).ready(function () {
             }
         });
 
+    if ($(window).outerWidth() < 1200) { 
+        $('#home').outerHeight(height);
+        $('#contact').outerHeight(height);
+    }
+
+    if ($(window).outerWidth() < 1043) {
+        $('#home').outerHeight(height);
+        $('#contact').outerHeight(height);
+        $('#projects1 div').removeClass('col span-1-of-2')
+        $('#projects1 div').removeClass('row')
+        $('#projects1 div').removeClass('row')
+        $('#projects2 div').removeClass('col span-1-of-2')
+        $('#projects2 div').removeClass('row')
+        $('#projects2 div').removeClass('row')
+    }
+
+
     if ($(window).outerWidth() < 767) {
         $('#home').outerHeight(height);
         $('#about div').removeClass('col span-1-of-4')
@@ -66,10 +83,10 @@ $(document).ready(function () {
         $('#projects2 div').removeClass('col span-1-of-2')
         $('#projects2 div').removeClass('row')
         $('#projects2 div').removeClass('row')
-        $('#contact').outerHeight(height);
+        $('#home').outerHeight(height);
     }
 
-    $('#mobile-nav').click(function() {
+    $('#mobile-nav').click(function () {
         $('#mobile-nav').css({
             'display': 'none'
         })
@@ -83,7 +100,7 @@ $(document).ready(function () {
         })
     })
 
-    $('#mobile-nav-close').click(function() {
+    $('#mobile-nav-close').click(function () {
         $('#mobile-nav-close').css({
             'display': 'none'
         })
