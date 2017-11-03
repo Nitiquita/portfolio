@@ -43,7 +43,7 @@ nav a {
     text-decoration: none;
 }
 
-#mobile-nav {
+#mobile-nav, #mobile-nav-close {
     display: none;
 }
 
