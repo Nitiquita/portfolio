@@ -101,7 +101,7 @@ nav a {
 #skills ul {
     list-style: none;
     font-size: 80%;
-    padding-left: opx;
+    padding-left: 0px;
 }
 
 #bio {
