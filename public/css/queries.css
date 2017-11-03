@@ -272,10 +272,12 @@
         padding-right: 40px;
     }
 
-    @media only screen and (max-width: 320px) {
+    @media only screen and (max-width: 360px) {
         .icon {
-            height: 20px;
+            height: 30px;
+            margin-right: 10px;
+            margin-left: 0;
         }
-        
+
     }
 }
