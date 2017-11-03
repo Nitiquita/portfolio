@@ -8,7 +8,7 @@
   "keywords": [
     "portfolio"
   ],
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
