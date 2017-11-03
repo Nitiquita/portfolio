@@ -6,7 +6,6 @@ $(document).ready(function () {
         $('#home').outerWidth(width);
         $('#about').outerHeight(height);
         $('#about').outerWidth(width);
-        $('#projects1').outerHeight(height);
         $('#projects1').outerWidth(width);
         $('#projects2').outerHeight(height);
         $('#projects2').outerWidth(width);
