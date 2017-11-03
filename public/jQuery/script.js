@@ -18,6 +18,27 @@ $(document).ready(function () {
         autoStart: false
     });
 
+    let win = $(window);
+    let lastScrollPosition = win.scrollTop();
+    let currScrollPosition = win.scrollTop();
+    win.on('scroll', function () {
+        let currScrollPosition = win.scrollTop();
+        let direction = currScrollPosition > lastScrollPosition ? 'down' : (currScrollPosition === lastScrollPosition ? 'none' : 'up')
+        console.log(direction)
+        if (direction === 'up' || direction === 'none') {
+            $('nav').css({
+                'visibility': 'visible'
+            })
+        } else {
+            $('nav').css({
+                'visibility': 'hidden'
+            })
+        }
+
+        lastScrollPosition = currScrollPosition
+    })
+
+
     /* Navigation Scroll */
 
     // Select all links with hashes
@@ -57,7 +78,7 @@ $(document).ready(function () {
             }
         });
 
-    if ($(window).outerWidth() < 1200) { 
+    if ($(window).outerWidth() < 1200) {
         $('#home').outerHeight(height);
         $('#contact').outerHeight(height);
     }
