@@ -44,15 +44,7 @@
         font-size: 80%;
     }
 
-    .code {
-        display: none;
-    }
-
-    .code2 {
-        display: block;
-    }
-
-    .code2 img {
+    .code img {
         height: 40px;
     }
 
@@ -187,21 +179,10 @@
         padding-right: 40px;
     }
 
-    .code {
-        display: block;
-    }
-
-    .code2 {
-        display: none;;
-    }
-
-    .code img {
-        height: 40px;
-    }
-
     #projects2 {
         padding-top: 0;
         font-size: 200%;
+        padding-right: 20px;
         padding-bottom: 150px;
     }
 
