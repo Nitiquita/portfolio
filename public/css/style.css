@@ -5,15 +5,8 @@
 html, body {
     margin: 0;
     padding: 0;
-
     font-family: 'Catamaran', sans-serif;
     font-size: 2vw;
-
-    /* background-image: url(sabri-tuzcu-331970.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;  */
 }
 
 /*------------------------------------------------*/
@@ -52,7 +45,7 @@ nav a {
 /*------------------------------------------------*/
 
 #home {
-    background-image: url(sabri-tuzcu-331970.jpg);
+    background-image: url("/img/sabri-tuzcu-331970.jpg");
     background-size: cover; 
     display: flex;
     align-items: center;
@@ -223,7 +216,7 @@ iframe {
 /*------------------------------------------------*/
 
 #contact {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(mathyas-kurmann-102977.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("/img/mathyas-kurmann-102977.jpg");
     background-size: cover; 
     font-size: 60%
 
