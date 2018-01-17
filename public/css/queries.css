@@ -1,270 +1,281 @@
-
-@media only screen and (max-width: 1320px) {   
-    .icon {
-        height: 30px;
-    }
+@media only screen and (max-width: 1320px) {
+  .icon {
+    height: 30px;
+  }
 }
 
 /* Big tablet to 1200px */
-@media only screen and (max-width: 1200px) {    
+@media only screen and (max-width: 1200px) {
+  #welcome h1,
+  #welcome h3 {
+    font-size: 250%;
+    line-height: 50px;
+  }
 
-    #welcome h1, #welcome h3 {
-        font-size: 250%;
-        line-height: 50px;
-    }
+  #about {
+    font-size: 130%;
+  }
 
-    #about {
-        font-size: 130%
-    }
+  #about-box {
+    padding-top: 100px;
+    padding-bottom: 75px;
+  }
 
-    #about-box {
-        padding-top: 100px;
-        padding-bottom: 75px;
-    }
+  #projects-box {
+    padding-bottom: 100px;
+  }
 
-    #projects-box {
-        padding-bottom: 100px;
-    }
+  #projects-box2 {
+    padding-top: 75px;
+    padding-bottom: 150px;
+  }
 
-    #projects-box2 {
-        padding-top: 75px;
-        padding-bottom: 150px;
-    }
+  #photo {
+    height: 150px;
+  }
 
-    #photo{
-        height: 150px
-    }
+  .icon {
+    height: 30px;
+    margin-left: 15px;
+  }
 
-    .icon {
-        height: 30px;
-        margin-left: 15px;
-    }
+  #projects1 {
+    font-size: 80%;
+  }
 
-    #projects1 {
-        font-size: 80%;
-    }
+  .code img {
+    height: 40px;
+  }
 
-    .code img {
-        height: 40px;
-    }
-
-    #projects2 {
-        font-size: 80%;
-    }
+  #projects2 {
+    font-size: 80%;
+  }
 }
 
-/* Small tablet to big tablet: from 768px to 1023px */ 
+/* Small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
+  #welcome h1,
+  #welcome h3 {
+    font-size: 350%;
+    line-height: 50px;
+  }
 
-    #welcome h1, #welcome h3 {
-        font-size: 350%;
-        line-height: 50px;
-    }
+  nav ul li {
+    font-size: 150%;
+  }
 
-    nav ul li { font-size: 150%; }
+  #about {
+    font-size: 175%;
+  }
 
-    #about { font-size: 175%; }
+  #about-box {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
-    #about-box { 
-        padding-top: 100px;
-        padding-bottom: 100px;
-     }
+  #bio {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 
-    #bio {
-        padding-right: 20px;
-        padding-left: 20px;
-    }
+  #social-media {
+    text-align: left;
+  }
 
-    #social-media { text-align: left; }
+  #skills {
+    text-align: left;
+  }
 
-    #skills { text-align: left; }
+  #projects1,
+  #projects2 {
+    padding-bottom: 100px;
+    font-size: 100%;
+  }
 
-    #projects1, #projects2 { 
-        padding-bottom: 100px;
-        font-size: 100%; 
+  #projects-box2 {
+    padding-top: 0;
+  }
 
-    }
+  .code {
+    padding-bottom: 50px;
+  }
 
-    #projects-box2 {
-        padding-top: 0;
-    }
+  #bfyhii {
+    padding-left: 40px;
+  }
 
-    .code {
-        padding-bottom: 50px;
-    }
+  #photo {
+    float: none;
+    margin-left: 20px;
+  }
 
-    #bfyhii {
-        padding-left: 40px;
-    }
+  .icon {
+    height: 20px;
+    margin-right: 10px;
+  }
 
+  #pitch {
+    display: block;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 50%;
+    text-align: center;
+  }
 
+  #pitch h1 {
+    font-size: 300%;
+  }
 
-    #photo {
-        float: none;
-        margin-left: 20px;
-    }
-
-    .icon {
-        height: 20px;
-        margin-right: 10px;
-    }
-
-    #pitch {
-        display: block;
-        margin: 0;
-        padding-left: 0;
-        padding-top: 50%;
-        text-align: center;
-    }
-
-    #pitch h1 {
-        font-size: 300%
-    }
-
-    #pitch img {
-        height: 40px;
-    }
-
+  #pitch img {
+    height: 40px;
+  }
 }
 
-/* Small phones to small tablets: from 481px to 767px */ 
+/* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-    nav ul li {
-        font-size: 200%;
-    }
+  nav ul li {
+    font-size: 200%;
+  }
 
-    #welcome h1, #welcome h3 {
-        font-size: 500%;
-        line-height: 50px;
-    }
+  #welcome h1,
+  #welcome h3 {
+    font-size: 500%;
+    line-height: 50px;
+  }
 
-    #about-box {
-        padding-top: 100px;
-        font-size: 200%;
-        padding-bottom: 50px;
-    }
+  #about-box {
+    padding-top: 100px;
+    font-size: 200%;
+    padding-bottom: 50px;
+  }
 
-    #goals, #bio {
-        padding-left: 40px;
-        padding-right: 20px;
-    }
+  #goals,
+  #bio {
+    padding-left: 40px;
+    padding-right: 20px;
+  }
 
-    #photo {
-        margin-left: 40px;
-        height: 300px;
-        float: right;
-    }
+  #photo {
+    margin-left: 40px;
+    height: 300px;
+    float: right;
+  }
 
-    #social-media {
-        padding-left: 40px;
-    }
+  #social-media {
+    padding-left: 40px;
+  }
 
-    #skills {
-        padding-left: 40px;
+  #skills {
+    padding-left: 40px;
+  }
+
+  .icon {
+    height: 40px;
+  }
+
+  #projects1 {
+    font-size: 200%;
+  }
+
+  #pusheen-travel {
+    padding-right: 40px;
+  }
+
+  #bfyhii {
+    padding-right: 40px;
+  }
+
+  #projects2 {
+    padding-top: 0;
+    font-size: 200%;
+    padding-right: 20px;
+    padding-bottom: 150px;
+  }
+
+  #projects-box2 {
+    padding-top: 20px;
+  }
+
+  #pitch {
+    display: block;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 50%;
+    text-align: center;
+  }
+
+  #pitch h1 {
+    font-size: 600%;
+  }
+
+  #pitch img {
+    height: 40px;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  nav ul {
+    padding-left: 20px;
+  }
+
+  nav ul li {
+    display: none;
+  }
+
+  #mobile-nav,
+  #mobile-nav-close {
+    display: block;
+    height: 40px;
+  }
+
+  #mobile-nav-close {
+    display: none;
+  }
+
+  #welcome h1,
+  #welcome h3 {
+    font-size: 500%;
+    line-height: 50px;
+  }
+
+  #about-box {
+    font-size: 300%;
+  }
+
+  #pusheen-travel,
+  #bfyhii,
+  #goals,
+  #bio {
+    padding-right: 40px;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  #portfolio {
+    width: 90%;
+  }
+
+  #website-boxes {
+    padding-right: 40px;
+  }
+
+  #social-media a {
+      padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+    nav ul li a {
+      color: black;
+      font-size: 60%;
     }
 
     .icon {
-        height: 40px;
-    }
-
-    #projects1 {
-        font-size: 200%
-    }
-
-    #pusheen-travel {
-        padding-right: 40px;
-    }
-
-    #bfyhii {
-        padding-right: 40px;
-    }
-
-    #projects2 {
-        padding-top: 0;
-        font-size: 200%;
-        padding-right: 20px;
-        padding-bottom: 150px;
-    }
-
-    #projects-box2 {
-        padding-top: 20px;
-    }
-
-    #pitch {
-        display: block;
-        margin: 0;
-        padding-left: 0;
-        padding-top: 50%;
-        text-align: center;
-    }
-
-    #pitch h1 {
-        font-size: 600%
-    }
-
-    #pitch img {
-        height: 40px;
-    }
-}
-
-/* Small phones: from 0 to 480px */ 
-@media only screen and (max-width: 480px) {
-    
-    nav ul {
-        padding-left: 20px;
-    }
-    
-    nav ul li {
-        display: none;
-    }
-
-    #mobile-nav, #mobile-nav-close {
-        display: block;
-        height: 40px;
-    }
-
-    #mobile-nav-close {
-        display: none;
-    }
-
-    #welcome h1, #welcome h3 {
-        font-size: 500%;
-        line-height: 50px;
-    }
-
-    #about-box {
-        font-size: 300%;
-    }
-
-    #pusheen-travel,
-    #bfyhii,
-    #goals, 
-    #bio { padding-right: 40px; }
-
-    iframe {
-        width: 100%;
-    }
-
-    #portfolio {
-        width: 90%
-    }
-
-    #website-boxes {
-        padding-right: 40px;
-    }
-
-    @media only screen and (max-width: 360px) {
-        nav ul li a {
-            color: black;
-            font-size: 60%;
-            
-        }
-
-        .icon {
-            height: 30px;
-            margin-right: 10px;
-            margin-left: 0;
-        }
-
+      height: 30px;
+      margin-right: 10px;
+      margin-left: 0;
     }
 }
