@@ -23,7 +23,6 @@ $(document).ready(function () {
     win.on('scroll', function () {
         let currScrollPosition = win.scrollTop();
         let direction = currScrollPosition > lastScrollPosition ? 'down' : (currScrollPosition === lastScrollPosition ? 'none' : 'up')
-        console.log(direction)
         if (direction === 'up' || direction === 'none') {
             $('nav').css({
                 'visibility': 'visible'
