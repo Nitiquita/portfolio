@@ -6,6 +6,7 @@ $(document).ready(function () {
         $('#home').outerWidth(width);
         $('#about').outerHeight(height);
         $('#about').outerWidth(width);
+        $('#projects1').outerHeight(height);
         $('#projects1').outerWidth(width);
         $('#projects2').outerHeight(height);
         $('#projects2').outerWidth(width);
@@ -131,7 +132,10 @@ $(document).ready(function () {
         })
     })
 
-
+    let goalsHeight = $('#goals').outerHeight()
+    console.log(goalsHeight)
+    $('#bio').outerHeight(goalsHeight)
+    $('#skills').outerHeight(goalsHeight)
 
 })
 

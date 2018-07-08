@@ -15,13 +15,14 @@ html, body {
 
 nav {
     position: fixed;
-    
+
 }
 
 nav ul {
     list-style: none;
-    margin-top: 15px;
-    
+    margin-top: 25px;
+    padding-left: 20px;
+
     /* text-align: right; */
 }
 
@@ -46,7 +47,7 @@ nav a {
 
 #home {
     background-image: url("../img/sabri-tuzcu-331970.jpg");
-    background-size: cover; 
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,16 +58,26 @@ nav a {
     float: right;
 }
 
+#welcome-box {
+    background-color: rgba(135, 135, 228, 0.418);
+    height: 600px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
 #welcome {
     color: white;
     font-size: 80%;
     font-weight: 300;
-    line-height: 10px;
     text-align: center;
 }
 
 #welcome h1 {
     margin:0;
+    line-height: 60px;
 }
 
 
@@ -81,16 +92,24 @@ nav a {
 /*------------------------------------------------*/
 
 #about {
-    background-color: #F9F3E6; 
+    background-color: #F9F3E6;
     color: rgb(114, 114, 114);
 }
 
 #about-box {
+    flex: display;
+    align-content: center;
+    justify-content: center;
+    margin-left: 50px;
     padding-top: 200px;
 }
 
 #skills {
     font-size: 60%;
+    background-color: rgba(255, 208, 0, 0.432);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:40px;
 }
 
 #skills h1 {
@@ -104,26 +123,30 @@ nav a {
 }
 
 #bio {
+    background-color: rgba(255, 192, 203, 0.432);
     font-size: 60%;
     padding-right: 40px;
     padding-left:40px;
     line-height: 150%;
+    padding-top: 20px;
+
 }
 
 #goals {
+    background-color: rgba(157, 156, 240, 0.432);
     font-size: 60%;
     padding-left: 40px;
     line-height: 150%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #social-media {
     font-size: 60%;
-    /* text-align: right; */
 }
 
 #social-media a {
     text-decoration: none;
-    padding-left: 25px;
 }
 
 #photo {
@@ -150,12 +173,18 @@ nav a {
 #projects1 {
     background-color: #E2DCD5;
     color: rgb(114, 114, 114);
-    font-size: 60%;
+    font-size: 50%;
 }
 
 #projects-box {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
+}
+
+#apps {
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .headline {
@@ -185,10 +214,23 @@ iframe {
 
 .code {
     margin-right: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 .code2 {
     display: block;
+}
+
+#apps img {
+    margin-top: 22px;
+    margin-right: 5px;
+    height: 25px;
+}
+
+.apps {
+    margin-right: 100px;
 }
 
 /*------------------------------------------------*/
@@ -198,7 +240,7 @@ iframe {
 #projects2 {
     background-color: #E8AA8C;
     color: rgb(114, 114, 114);
-    font-size: 60%
+    font-size: 50%
 }
 
 #projects-box2 {
@@ -210,9 +252,12 @@ iframe {
     width: 382px;
 }
 
-#website-box {
-    padding-top: 100px
+#websites {
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
+
 
 .website-boxes {
     padding-left: 40px;
@@ -222,20 +267,26 @@ iframe {
     margin-top: 375px;
 }
 
+#websites img {
+    margin-top: 22px;
+    margin-right: 5px;
+    height: 25px;
+}
+
 /*------------------------------------------------*/
 /*CONTACT*/
 /*------------------------------------------------*/
 
 #contact {
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("../img/mathyas-kurmann-102977.jpg");
-    background-size: cover; 
+    background-size: cover;
     font-size: 60%
 
 }
 
 .photo-credit2 {
     float: right;
-    
+
 }
 
 #contact h1 {
@@ -262,7 +313,7 @@ iframe {
 /*CREDITS*/
 /*------------------------------------------------*/
 
-#credits { 
+#credits {
     background-color: rgb(211, 207, 192);
     font-size: 50%;
     display: flex;
