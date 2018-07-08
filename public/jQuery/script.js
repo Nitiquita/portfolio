@@ -133,10 +133,13 @@ $(document).ready(function () {
     })
 
     let goalsHeight = $('#goals').outerHeight()
-    console.log(goalsHeight)
     $('#bio').outerHeight(goalsHeight)
     $('#skills').outerHeight(goalsHeight)
 
+    let welcomeBoxWidth = $(window).outerWidth() * .75
+    $('#welcome-box').outerWidth(welcomeBoxWidth)
+    $('#welcome-box').outerHeight(welcomeBoxWidth/2)
+    console.log(welcomeBoxHeight)
 })
 
 
