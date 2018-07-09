@@ -83,7 +83,7 @@ $(document).ready(function () {
             }
         });
 
-    if ($(window).outerWidth() < 1200) {
+    if ($(window).outerWidth() < 1200 && $(window).outerWidth() >= 1043) {
         $('#home').outerHeight(height);
         $('#contact').outerHeight(height);
         let welcomeBoxWidth = $(window).outerWidth() * .75
@@ -91,7 +91,7 @@ $(document).ready(function () {
         $('#welcome-box').outerHeight(welcomeBoxWidth/2)
     }
 
-    if ($(window).outerWidth() < 1043) {
+    if ($(window).outerWidth() < 1043 && $(window).outerWidth() >= 767) {
         $('#home').outerHeight(height);
         $('#contact').outerHeight(height);
         $('#projects1 div').removeClass('col span-1-of-2')
