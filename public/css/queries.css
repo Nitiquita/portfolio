@@ -142,6 +142,14 @@
     align-content: flex-start;
     justify-content: flex-start;
   }
+
+  #apps img {
+    margin-top: 8px
+  }
+
+  #websites img {
+    margin-top: 8px
+  }
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -225,6 +233,14 @@
 
   #pitch img {
     height: 40px;
+  }
+
+  #apps img {
+    margin-top: 10px
+  }
+
+  #websites img {
+    margin-top: 10px
   }
 }
 
