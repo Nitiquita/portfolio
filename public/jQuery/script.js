@@ -6,6 +6,10 @@ $(document).ready(function () {
         $('#welcome-box').outerWidth(welcomeBoxWidth)
         $('#welcome-box').outerHeight(welcomeBoxWidth/2)
 
+        let goalsHeight = $('#goals').outerHeight()
+        $('#bio').outerHeight(goalsHeight)
+        $('#skills').outerHeight(goalsHeight)
+
         $('#home').outerHeight(height);
         $('#home').outerWidth(width);
         $('#about').outerHeight(height);
@@ -86,9 +90,14 @@ $(document).ready(function () {
     if ($(window).outerWidth() < 1200 && $(window).outerWidth() >= 1043) {
         $('#home').outerHeight(height);
         $('#contact').outerHeight(height);
+
         let welcomeBoxWidth = $(window).outerWidth() * .75
         $('#welcome-box').outerWidth(welcomeBoxWidth)
         $('#welcome-box').outerHeight(welcomeBoxWidth/2)
+
+        let goalsHeight = $('#goals').outerHeight()
+        $('#bio').outerHeight(goalsHeight)
+        $('#skills').outerHeight(goalsHeight)
     }
 
     if ($(window).outerWidth() < 1043 && $(window).outerWidth() >= 767) {
@@ -103,6 +112,10 @@ $(document).ready(function () {
         let welcomeBoxWidth = $(window).outerWidth() * .75
         $('#welcome-box').outerWidth(welcomeBoxWidth)
         $('#welcome-box').outerHeight(welcomeBoxWidth/2)
+
+        let goalsHeight = $('#goals').outerHeight()
+        $('#bio').outerHeight(goalsHeight)
+        $('#skills').outerHeight(goalsHeight)
     }
 
 
@@ -144,9 +157,7 @@ $(document).ready(function () {
         })
     })
 
-    let goalsHeight = $('#goals').outerHeight()
-    $('#bio').outerHeight(goalsHeight)
-    $('#skills').outerHeight(goalsHeight)
+
 
 
 })

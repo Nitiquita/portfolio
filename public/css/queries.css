@@ -129,6 +129,19 @@
   #pitch img {
     height: 40px;
   }
+
+  .apps {
+    margin-right: 0;
+  }
+
+  #apps {
+    flex-direction: column;
+  }
+
+  .code {
+    align-content: flex-start;
+    justify-content: flex-start;
+  }
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -165,10 +178,6 @@
     margin-left: 40px;
     height: 300px;
     float: right;
-  }
-
-  #social-media {
-    padding-left: 40px;
   }
 
   #skills {
