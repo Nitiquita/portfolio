@@ -141,12 +141,18 @@
   #welcome h3 {
     font-size: 500%;
     line-height: 50px;
+    background-color: rgba(135, 135, 228, 0.418);
   }
+
+  /* #welcome-box {
+    background-color: rgba(135, 135, 228, 0);
+  } */
 
   #about-box {
     padding-top: 100px;
     font-size: 200%;
     padding-bottom: 50px;
+    margin-left: 20px
   }
 
   #goals,
@@ -241,6 +247,7 @@
 
   #about-box {
     font-size: 300%;
+    margin-left: 0;
   }
 
   #pusheen-travel,

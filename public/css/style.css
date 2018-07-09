@@ -60,12 +60,9 @@ nav a {
 
 #welcome-box {
     background-color: rgba(135, 135, 228, 0.418);
-    /* height: 600px;
-    width: 1200px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 50px;
 }
 
 #welcome {

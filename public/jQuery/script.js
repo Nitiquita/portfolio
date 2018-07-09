@@ -2,6 +2,10 @@ $(document).ready(function () {
     let height = $(window).outerHeight();
     let width = $(window).outerWidth();
     if ($(window).outerWidth() >= 1200) {
+        let welcomeBoxWidth = $(window).outerWidth() * .75
+        $('#welcome-box').outerWidth(welcomeBoxWidth)
+        $('#welcome-box').outerHeight(welcomeBoxWidth/2)
+
         $('#home').outerHeight(height);
         $('#home').outerWidth(width);
         $('#about').outerHeight(height);
@@ -35,6 +39,8 @@ $(document).ready(function () {
         }
 
         lastScrollPosition = currScrollPosition
+
+
     })
 
 
@@ -80,6 +86,9 @@ $(document).ready(function () {
     if ($(window).outerWidth() < 1200) {
         $('#home').outerHeight(height);
         $('#contact').outerHeight(height);
+        let welcomeBoxWidth = $(window).outerWidth() * .75
+        $('#welcome-box').outerWidth(welcomeBoxWidth)
+        $('#welcome-box').outerHeight(welcomeBoxWidth/2)
     }
 
     if ($(window).outerWidth() < 1043) {
@@ -91,6 +100,9 @@ $(document).ready(function () {
         $('#projects2 div').removeClass('col span-1-of-2')
         $('#projects2 div').removeClass('row')
         $('#projects2 div').removeClass('row')
+        let welcomeBoxWidth = $(window).outerWidth() * .75
+        $('#welcome-box').outerWidth(welcomeBoxWidth)
+        $('#welcome-box').outerHeight(welcomeBoxWidth/2)
     }
 
 
@@ -136,10 +148,7 @@ $(document).ready(function () {
     $('#bio').outerHeight(goalsHeight)
     $('#skills').outerHeight(goalsHeight)
 
-    let welcomeBoxWidth = $(window).outerWidth() * .75
-    $('#welcome-box').outerWidth(welcomeBoxWidth)
-    $('#welcome-box').outerHeight(welcomeBoxWidth/2)
-    console.log(welcomeBoxHeight)
+
 })
 
 
