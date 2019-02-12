@@ -63,6 +63,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 #welcome {
@@ -76,8 +77,6 @@ nav a {
     margin:0;
     line-height: 60px;
 }
-
-
 
 .down-arrow1, .down-arrow2, .down-arrow3, .down-arrow4 {
     height: 5%;
@@ -148,7 +147,7 @@ nav a {
 
 #photo {
     height: 200px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     float: right;
     margin-top: 25px;
     margin-right: 10px;
